@@ -1,0 +1,15 @@
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.csproj.AssemblyReference.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.AssemblyInfoInputs.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.AssemblyInfo.cs
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.csproj.CoreCompileInputs.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\bin\Debug\net7.0\Seminar001.exe
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\bin\Debug\net7.0\Seminar001.deps.json
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\bin\Debug\net7.0\Seminar001.runtimeconfig.json
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\bin\Debug\net7.0\Seminar001.dll
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\bin\Debug\net7.0\Seminar001.pdb
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.dll
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\refint\Seminar001.dll
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.pdb
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\Seminar001.genruntimeconfig.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Programming_Seminars\Seminar001\obj\Debug\net7.0\ref\Seminar001.dll
