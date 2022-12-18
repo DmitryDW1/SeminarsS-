@@ -69,7 +69,7 @@ int num_a = Convert.ToInt32(Console.ReadLine());
 int current = 2;
 while (current < num_a)
     {
-        Console.Write (current);
+        Console.Write (current + " ");
         current = current + 2;
     }
 */
