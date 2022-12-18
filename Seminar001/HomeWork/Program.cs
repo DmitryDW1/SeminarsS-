@@ -3,17 +3,18 @@
 
 /*
 Console.Write ("Input a first number: ");
-int num_a = Convert.ToInt32(Console.ReadLine());
+double num_a = Convert.ToDouble(Console.ReadLine());
 Console.Write ("Input a second number: ");
-int num_b = Convert.ToInt32(Console.ReadLine());
+double num_b = Convert.ToDouble(Console.ReadLine());
 if (num_a > num_b)
     {
-    Console.Write(num_a + ">" + num_b);
+    Console.Write(num_a + " > " + num_b);
     }
-else
+else if (num_a < num_b)
     {
-    Console.Write(num_b + ">" + num_a);
+    Console.Write(num_b + " > " + num_a);
     }
+else Console.Write(num_a + " = " + num_b);
 */
 
 //Задача 4: Напишите программу, которая принимает на вход три числа
@@ -21,12 +22,12 @@ else
 
 /*
 Console.Write ("Input a first number: ");
-int num_a = Convert.ToInt32(Console.ReadLine());
+double num_a = Convert.ToDouble(Console.ReadLine());
 Console.Write ("Input a second number: ");
-int num_b = Convert.ToInt32(Console.ReadLine());
+double num_b = Convert.ToDouble(Console.ReadLine());
 Console.Write ("Input a third number: ");
-int num_c = Convert.ToInt32(Console.ReadLine());
-int max = num_a;
+double num_c = Convert.ToDouble(Console.ReadLine());
+double max = num_a;
 if (num_b > max)
     {
         max = num_b;
@@ -35,7 +36,7 @@ if (num_c > max)
     {
         max = num_c;
     }
-Console.Write ("the maximum of these numbers ");
+Console.Write ("The maximum of these numbers ");
 Console.WriteLine (max);
 */
 
@@ -44,7 +45,7 @@ Console.WriteLine (max);
 
 /*
 Console.Write ("Input a number: ");
-int num_a = Convert.ToInt32(Console.ReadLine());
+double num_a = Convert.ToDouble(Console.ReadLine());
 if (num_a == 0)
     {
         Console.WriteLine ("This is the most even number!!!");
