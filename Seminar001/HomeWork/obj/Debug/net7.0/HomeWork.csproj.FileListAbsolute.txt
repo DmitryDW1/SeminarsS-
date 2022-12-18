@@ -1,0 +1,15 @@
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.csproj.AssemblyReference.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.AssemblyInfoInputs.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.AssemblyInfo.cs
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\bin\Debug\net7.0\HomeWork.exe
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\bin\Debug\net7.0\HomeWork.deps.json
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\bin\Debug\net7.0\HomeWork.runtimeconfig.json
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\bin\Debug\net7.0\HomeWork.dll
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\bin\Debug\net7.0\HomeWork.pdb
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.dll
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\refint\HomeWork.dll
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.pdb
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\HomeWork.genruntimeconfig.cache
+C:\Users\DmitryDW\Documents\GeekBrains\Seminars_For_C\Seminar001\HomeWork\obj\Debug\net7.0\ref\HomeWork.dll
