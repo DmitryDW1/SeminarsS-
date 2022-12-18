@@ -65,7 +65,7 @@ else
 
 /*
 Console.Write ("Input a number: ");
-int num_a = Convert.ToInt32(Console.ReadLine());
+double num_a = Convert.ToDouble(Console.ReadLine());
 int current = 2;
 if (num_a > 0)
     {
@@ -85,4 +85,3 @@ else
             }
     }
 */
-
