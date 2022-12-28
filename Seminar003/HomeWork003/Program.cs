@@ -63,7 +63,7 @@ Console.WriteLine("Distance " + result);
 void QuadLine(int num)
 {
     int counter = 1;
-    while (counter <= num)
+    while (counter < num)
     {
         Console.WriteLine(Math.Pow(counter, 3));
         ++counter;
