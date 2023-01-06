@@ -1,7 +1,7 @@
 ﻿// Задача 19. Напишите программу, которая принимает на вход
 // число и проверяет, является ли оно палиндромом.
 
-/*
+
 bool Polindrome(int num)
 {
     int rezult = 0;
@@ -27,7 +27,7 @@ bool Polindrome(int num)
 Console.WriteLine("Let's check if your number is a palindrome. Input number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Polindrome(num));
-*/
+
 
 // Задача 21. Напишите программу, которая принимает на вход координаты
 // двух точек и находит расстояние между ними в 3D пространстве.
