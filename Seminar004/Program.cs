@@ -20,6 +20,7 @@ Console.WriteLine(result);
 
 // Напишите программу, которая принимает на 
 //вход число N и выдаёт произведение чисел от 1 до N.
+ 
  /*
 int getNum (int num)
 {
@@ -60,7 +61,7 @@ int a = Convert.ToInt32 (Console.ReadLine());
 int result = getNum (a);
 Console.WriteLine(result);
 */
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -89,3 +90,4 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[] newArray = CreateRandomArray (length, min, max);
 ShowArray(newArray);
+*/

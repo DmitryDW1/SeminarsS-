@@ -34,7 +34,7 @@ GetDiapazone(quadNum);
 //координаты двух точек и находит расстояние между ними
 // в 2D пространстве.
 
-
+/*
 void QuadLine(int num)
 {
     int counter = 1;
