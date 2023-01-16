@@ -83,8 +83,10 @@ void ShowArray(int[] array)
 }
 Console.Write("Input a length of array: ");
 int length = Convert.ToInt32(Console.ReadLine());
+
 Console.Write("Input a min possible value of array: ");
 int min = Convert.ToInt32(Console.ReadLine()); 
+
 Console.Write("Input a max possible value of array: ");
 int max = Convert.ToInt32(Console.ReadLine()); 
 
