@@ -1,7 +1,7 @@
 ﻿/* Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 */
 
-
+/*
 int[] CreateArray(int length)
 {
     int[] array = new int[length];
@@ -39,7 +39,7 @@ int length = Convert.ToInt32(Console.ReadLine());
 int[] newArray = CreateArray (length);
 ShowArray(newArray);
 NumbersGreaterZero(newArray);
-
+*/
 
 
 /* Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями
