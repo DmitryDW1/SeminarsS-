@@ -2,7 +2,7 @@
 отрицательных элементов в массиве.
 */
 
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -28,7 +28,6 @@ int[] CreateArray(int size)
     return array;
 }
 
-/*
 int GetSumOfNegatives(int[] array)
 {
     int sum = 0;
@@ -42,7 +41,7 @@ int GetSumOfNegatives(int[] array)
     }
     return sum;
 }
-*/
+
 void ShowArray(int[] array)
 {
     for(int i = 0; i < array.Length; i++)
@@ -51,7 +50,7 @@ void ShowArray(int[] array)
     }
     Console.WriteLine();
 }
-/*
+
 Console.Write("Input a length of array: ");
 int length = Convert.ToInt32(Console.ReadLine());
 
@@ -71,7 +70,7 @@ Console.WriteLine("Sum of negatives in this array is " + result);
 /* Написать программу, заменяющую положительные 
 элементы массива на отрицательные и наоборот.
 */
-
+/*
 int[] MirrorArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -80,22 +79,22 @@ int[] MirrorArray(int[] array)
     }
     return array;
 }
-
+*/
 /* Написать программу, определяющую, присутствует 
 ли заданное число в массиве.
 */
-
+/*
 bool IsNumberInArray(int[] array, int numb)
 {
     for (int i = 0; i < array.Length; i++)
         if (array[i] == numb) return true;
     return false;
 }
-
+*/
 /* Задать массив из n элементов, определить 
 кол-во элементов, принадлежащих отрезку [a,b] включительно.
 */
-
+/*
 int NumbersInArray(int[] array, int a, int b)
 {
     if(a > b)
@@ -119,3 +118,4 @@ ShowArray(MirrorArray(testArray));
 
 Console.WriteLine(IsNumberInArray(testArray, 0));
 Console.WriteLine(NumbersInArray(testArray, -5, 5));
+*/
