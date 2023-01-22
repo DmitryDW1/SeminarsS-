@@ -1,14 +1,14 @@
 ﻿/* Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 */
 
-/*
+
 int[] CreateArray(int length)
 {
     int[] array = new int[length];
 
     for(int i = 0; i < length; i++)
     {
-        Console.WriteLine($"Input a {i + 1} element: ");
+        Console.WriteLine($"Input a {i + 1} number: ");
         array[i] = Convert.ToInt32 (Console.ReadLine());
     }
     return array;
@@ -33,13 +33,13 @@ void NumbersGreaterZero(int[] array)
     Console.WriteLine($"Numbers greater than 0: " + counter);
 }
 
-Console.Write("Input a length of array: ");
+Console.Write("How many numbers will you enter? ");
 int length = Convert.ToInt32(Console.ReadLine());
 
 int[] newArray = CreateArray (length);
 ShowArray(newArray);
 NumbersGreaterZero(newArray);
-*/
+
 
 
 /* Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями
