@@ -2,6 +2,7 @@
 заполненный случайными вещественными числами.
 */
 
+
 /*
 double[,] Create2dRandomArray()
 {
@@ -44,6 +45,7 @@ Show2dArray(newArray);
 двумерном массиве, и возвращает значение этого элемента или же указание, 
 что такого элемента нет.
 */
+
 
 /*
 double[,] Create2dRandomArray()
@@ -134,6 +136,7 @@ void Show2dArray(int[,] array)
     }
     Console.WriteLine();
 }
+
 
 void AverageSumColumn(int[,] array)
 {
