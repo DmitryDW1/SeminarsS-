@@ -1,6 +1,6 @@
 ﻿// Структура двумерного массива
 
-/*
+
 int [,] CreateRandom2dArray()
 {
     Console.Write("Input a number of rows: ");  // Это частный случай создания массива
@@ -40,7 +40,7 @@ void Show2dArray(int[,] array)
 
 int[,] newArray = CreateRandom2dArray();
 Show2dArray(newArray);
-*/
+
 
 /* Задайте двумерный массив размера m на n, каждый элемент в массиве находится по формуле:
  Aij = i+j. Выведите полученный массив на экран.
