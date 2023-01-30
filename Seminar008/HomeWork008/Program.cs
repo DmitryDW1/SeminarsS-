@@ -296,17 +296,20 @@ int[,] Create2DArrayFillZero()
 void Create2dSpiralArray(int i, int j, int initialValue, int[,] array)
 { 
     
-    if (i < array.GetLength(0) && i >=0 && j>=0 && j < array.GetLength(1))
+    if (i < array.GetLength(0) && i >= 0 && j >= 0 && j < array.GetLength(1))
     {
         if(array[i, j] == 0)
         {
-            array[i,j] = initialValue;
+            
+            array[i, j] = initialValue;
             initialValue++;
+            
             Create2dSpiralArray(i, j + 1, initialValue, array);
             Create2dSpiralArray(i + 1, j, initialValue, array);
             Create2dSpiralArray(i, j - 1, initialValue, array);
             Create2dSpiralArray(i - 1, j, initialValue, array);
-                
+            
+            
         }
             
     }
