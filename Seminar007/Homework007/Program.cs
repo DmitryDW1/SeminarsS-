@@ -104,7 +104,7 @@ CheckingValueArrayElement(newArray);
 */
 
 
-/*
+
 int[,] Create2dRandomArray()
 {
     Random rnd = new Random();
@@ -155,4 +155,3 @@ void AverageSumColumn(int[,] array)
 int[,] newArray = Create2dRandomArray();
 Show2dArray(newArray);
 AverageSumColumn(newArray);
-*/
