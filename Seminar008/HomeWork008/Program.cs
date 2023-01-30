@@ -280,6 +280,58 @@ else Console.WriteLine("It is impossible to fill in the matrix: there are not en
 /* Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 */
 
+int[,] Create2dSpiralArray(int rows, int columns, int initialvalue)
+    {
+    int[,] array = new int[rows, columns];
+    int i = 0, j = 0;
+    int moveUp = 0, moveDown = 0, moveLeft = 0, moveRight = 0;
+    while(initialvalue <= rows * columns)
+        {
+        array[i, j] = initialvalue;
+        if(i == moveUp && j < columns - 1 - moveRight) j++;
+        else if(j == columns - 1 - moveRight && i < rows - 1 - moveDown) i++;
+        else if(i == rows - 1 - moveDown && j > moveLeft) j--;
+        else i--;
+
+        if ((i == moveUp + 1) && (j == moveLeft) && (moveLeft != columns - 1 - moveRight))
+        {
+            moveUp++;
+            moveDown++;
+            moveLeft++;
+            moveRight++;
+        }
+        initialvalue++;
+        }
+    return array;
+    }
+void Show2dArray(int[,] array)
+{
+    for(int i = 0; i < array.GetLength(0); i++)
+    {
+        for(int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write("\t" + array[i, j] + "\t");
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("Enter the number of rows: ");
+int rows = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter the number of columns: ");
+int columns = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter the initial value: ");
+int initialvalue = Convert.ToInt32(Console.ReadLine());
+
+int[,] spiralArray = Create2dSpiralArray(rows, columns, initialvalue);
+Show2dArray(spiralArray);
+
+
+// Попробовал методом рекурсии из лекций. Заполняет три стороны по периметру, а потом змейкой. 
+/*
 int[,] Create2DArrayFillZero()
     {
         System.Console.WriteLine("Enter the rows of the array: ");
@@ -332,4 +384,4 @@ void Show2dArray(int[,] array)
 int[,] array = Create2DArrayFillZero();
 Create2dSpiralArray(0, 0, 1, array);
 Show2dArray(array);
-
+*/
