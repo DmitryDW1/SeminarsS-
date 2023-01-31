@@ -280,6 +280,9 @@ else Console.WriteLine("It is impossible to fill in the matrix: there are not en
 /* Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 */
 
+
+
+/*
 int[,] Create2dSpiralArray(int rows, int columns, int initialvalue)
     {
     int[,] array = new int[rows, columns];
@@ -328,6 +331,7 @@ int initialvalue = Convert.ToInt32(Console.ReadLine());
 
 int[,] spiralArray = Create2dSpiralArray(rows, columns, initialvalue);
 Show2dArray(spiralArray);
+*/
 
 
 // Попробовал методом рекурсии из лекций. Заполняет три стороны по периметру, а потом змейкой. 
