@@ -119,6 +119,7 @@ SmallestAmount(newArray);
 */
 
 
+
 /*Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 */
 
@@ -191,6 +192,8 @@ if(firstMatrix.GetLength(0) == secondMatrix.GetLength(1))
 }
 else Console.WriteLine("The product of matrices does not make sense");
 */
+
+
 
 /*Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. 
 Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
@@ -277,10 +280,9 @@ else Console.WriteLine("It is impossible to fill in the matrix: there are not en
 */
 
 
+
 /* Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 */
-
-
 
 /*
 int[,] Create2dSpiralArray(int rows, int columns, int initialvalue)
